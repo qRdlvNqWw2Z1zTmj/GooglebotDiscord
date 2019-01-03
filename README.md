@@ -24,4 +24,5 @@ python3 -m pip install -U discord.py[voice]
 More info on https://github.com/Rapptz/discord.py
 
 
+## Beautiful Soup
 You can find information about Beautiful Soup here: https://www.crummy.com/software/BeautifulSoup/
