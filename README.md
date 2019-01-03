@@ -7,6 +7,8 @@ require some tweaking to work, due to discord.py working a bit differently in th
 
 The project requires an installation of discord.py, and importing asyncio and Scraper.py. Scraper.py requires bs4 and requests to be installed and imported.
 
+![orama interactive google discord](https://user-images.githubusercontent.com/35376950/50635884-a91a6d00-0f5c-11e9-9b78-c4e54fee4256.png)
+
 ## Installing discord.py
 
 To install the library without full voice support, you can just run the following command:
