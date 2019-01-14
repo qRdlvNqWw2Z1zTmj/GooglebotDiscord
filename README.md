@@ -5,7 +5,9 @@ and pastes them to Google's URL
 This was written in Python 3.6, so I cannot guarantee it will work on other versions as well. I believe versions prior to 3.5
 require some tweaking to work, due to discord.py working a bit differently in these versions.
 
-The project requires an installation of discord.py, and importing the asyncio and math libraries.
+The project requires an installation of discord.py, and importing asyncio and Scraper.py. Scraper.py requires bs4 and requests to be installed and imported.
+
+![orama interactive google discord](https://user-images.githubusercontent.com/35376950/50635884-a91a6d00-0f5c-11e9-9b78-c4e54fee4256.png)
 
 ## Installing discord.py
 
@@ -22,3 +24,7 @@ python3 -m pip install -U discord.py[voice]
 ```
 
 More info on https://github.com/Rapptz/discord.py
+
+
+## Beautiful Soup
+You can find information about Beautiful Soup here: https://www.crummy.com/software/BeautifulSoup/
