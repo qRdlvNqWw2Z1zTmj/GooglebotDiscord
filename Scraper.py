@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
+from urllib.parse import unquote #used for URL decoding
 
 	
 def Google(q):
@@ -17,6 +18,7 @@ def Google(q):
 				link = a.get("href")
 				link = link.replace("/url?q=","") #remove useless URL stuff from the start
 				link = link[:link.rfind("&sa=U")] #...and from the end
+				link = unquote(link) #The link is encoded in URL format, so we need to decode it
 				message += "{}\n{}\n\n".format(txt,link)
 				if len(message) > 1600: #discord can only send message up to 2000 characters
 					break
